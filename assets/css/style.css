@@ -1275,7 +1275,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   overflow: hidden;
 }
   .container{
-    width: 700px;
+    width: 500px;
     overflow: hidden;
   }
   .container .text{
