@@ -1342,7 +1342,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .container .text{
     position: relative;
     color: #4070F4;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: 500;
   }
   .container .text.first-text{
