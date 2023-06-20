@@ -1269,6 +1269,48 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+/*Changing Text
+	
+.body{
+  overflow: hidden;
+}
+  .container{
+    width: 700px;
+    overflow: hidden;
+  }
+  .container .text{
+    position: relative;
+    color: #4070F4;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .container .text.first-text{
+    color: #fff;
+  }
+  .text.sec-text::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+  }
+
+  @keyframes animate {
+    40%, 60%{
+      left: calc(100% + 4px);
+    }
+    100%{
+      left: 0%;
+    }
+  }
+
+	Changing Text*/
+
+
 @media (min-width: 450px) {
 
   /**
@@ -1286,10 +1328,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .project-img,
   .gallery-banner-box { height: auto; }
 
-}
 
 
-/*Changing Text*/
+	/*Changing Text
 	
 .body{
   overflow: hidden;
@@ -1328,7 +1369,11 @@ textarea.form-input::-webkit-resizer { display: none; }
     }
   }
 
-	/*Changing Text*/
+	Changing Text*/
+
+}
+
+
 
 
 /**
@@ -1340,48 +1385,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * CUSTOM PROPERTY
    */
-
-
-/*Changing Text*/
-	
-.body{
-  overflow: hidden;
-}
-  .container{
-    width: 700px;
-    overflow: hidden;
-  }
-  .container .text{
-    position: relative;
-    color: #4070F4;
-    font-size: 15px;
-    font-weight: 500;
-  }
-  .container .text.first-text{
-    color: #fff;
-  }
-  .text.sec-text::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #010718;
-    border-left: 2px solid #4070F4;
-    animation: animate 4s steps(12) infinite;
-  }
-
-  @keyframes animate {
-    40%, 60%{
-      left: calc(100% + 4px);
-    }
-    100%{
-      left: 0%;
-    }
-  }
-
-	/*Changing Text*/
 	
 	
   :root {
