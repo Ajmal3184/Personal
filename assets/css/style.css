@@ -1314,6 +1314,9 @@ textarea.form-input::-webkit-resizer { display: none; }
   .container .text {
     font-size: 20px;
   }
+  .container{
+      display: inline-block;
+    }
 }
 
 
